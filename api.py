@@ -67,7 +67,7 @@ class Employee(Resource):
 
 
 
-api.add_resource(EmployeeList,"/employee")
+api.add_resource(EmployeeList,"/employee/")
 api.add_resource(Employee,"/employee/<employee_id>")
 
 if __name__ == "__main__":
